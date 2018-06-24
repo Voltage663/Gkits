@@ -1,6 +1,6 @@
 <?php
 
-namespace Gkit;
+namespace Gkits;
 
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\entity\Effect;
