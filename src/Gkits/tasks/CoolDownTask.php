@@ -1,11 +1,11 @@
->?php
+<?php
 
 namespace Gkits;
 
 use Gkits\Main;
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 
-class CoolDownTask extends PluginTask{
+class CoolDownTask extends Task{
 
     private $plugin;
     
