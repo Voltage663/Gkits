@@ -1,6 +1,6 @@
 <?php
 
-namespace Gkits;
+namespace Gkits\lang;
 
 use Gkits\Main;
 use pocketmine\utils\Config;
