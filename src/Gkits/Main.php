@@ -36,7 +36,7 @@ class Main extends PluginBase{
         if($this->getServer()->getPluginManager()->getPlugin("PurePerms") !== null and !$this->getConfig()->get("force-builtin-permissions")){
             $this->permManager = true;
         }
-        $this->getServer()->getScheduler()->scheduleDelayedRepeatingTask(new CoolDownTask($this), 1200, 1200);
+        $this->getScheduler()->scheduleDelayedRepeatingTask(new CoolDownTask($this), 1200, 1200);
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
         
         $this->piggyEnchants = $this->getServer()->getPluginManager()->getPlugin("PiggyCustomEnchants");
