@@ -1,6 +1,6 @@
 <?php
 
-namespace Gkits;
+namespace Gkits\economy;
 
 use Gkits\Main;
 use pocketmine\Player;
