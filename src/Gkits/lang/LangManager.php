@@ -1,4 +1,4 @@
->?pup
+<?php
 
 namespace Gkits;
 
