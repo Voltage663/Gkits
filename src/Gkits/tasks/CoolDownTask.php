@@ -1,6 +1,6 @@
 <?php
 
-namespace Gkits;
+namespace Gkits\tasks;
 
 use Gkits\Main;
 use pocketmine\scheduler\Task;
